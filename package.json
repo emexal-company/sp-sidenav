@@ -5,9 +5,9 @@
   "main": "dist/sidenav.component.js",
   "module": "dist/sidenav.component.js",
   "dependencies": {
-    "@spectrum/sp-base": "file:../base",
-    "@spectrum/sp-config": "file:../config",
-    "@spectrum/sp-sidenavitem": "file:../sidenavitem",
+    "@spectrum/sp-base": "git+https://github.com/emexal-company/sp-base.git",
+    "@spectrum/sp-config": "git+https://github.com/emexal-company/sp-config.git",
+    "@spectrum/sp-sidenavitem": "git+https://github.com/emexal-company/sp-sidenavitem.git",
     "lit-element": "^2.4.0",
     "tslib": "^2.0.1"
   },
@@ -20,6 +20,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Omar BELKHODJA",
+  "license": "Apache-2.0"
 }
