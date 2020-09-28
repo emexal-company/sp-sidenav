@@ -1,0 +1,25 @@
+{
+  "name": "@spectrum/sp-sidenav",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/sidenav.component.js",
+  "module": "dist/sidenav.component.js",
+  "dependencies": {
+    "@spectrum/sp-base": "file:../base",
+    "@spectrum/sp-config": "file:../config",
+    "@spectrum/sp-sidenavitem": "file:../sidenavitem",
+    "lit-element": "^2.4.0",
+    "tslib": "^2.0.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC"
+}
