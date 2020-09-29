@@ -7,8 +7,8 @@ export declare class SideNav extends Base {
     protected items: HTMLElement;
     private selectedElement;
     protected render(): import("lit-element").TemplateResult;
-    protected connectedCallback(): void;
-    protected disconnectedCallback(): void;
+    connectedCallback(): void;
+    disconnectedCallback(): void;
     protected updated(): void;
     private getItems;
     private onClicked;

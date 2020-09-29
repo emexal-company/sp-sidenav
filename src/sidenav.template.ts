@@ -13,17 +13,13 @@
 */
 
 import { html } from 'lit-element';
-import { classMap } from 'lit-html/directives/class-map.js';
 
 import { SideNav } from './sidenav.component';
 
 export default function template(this: SideNav) {
   return html`
         <ul
-          ?multi-level="${this.multiLevel}"
-          ?first-level="${this.firstLevel}"
-          ?second-level="${this.secondLevel}"
-          class="spectrum-SideNav spectrum-SideNav--multiLevel">
+          class="spectrum-SideNav">
           <slot></slot>
         </ul>
         `;

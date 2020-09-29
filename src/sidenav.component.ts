@@ -12,7 +12,7 @@
     limitations under the License.
 */
 
-import { query, css, customElement, LitElement, property, PropertyValues } from 'lit-element';
+import { query,  customElement, property } from 'lit-element';
 
 import { Base } from '@spectrum/sp-base';
 
@@ -36,7 +36,7 @@ export class SideNav extends Base {
     return template.call(this);
   }
 
-  protected connectedCallback() {
+  public connectedCallback() {
     super.connectedCallback();
 
     // Handle the click event only inside the root <sp-sidenav>
@@ -45,7 +45,7 @@ export class SideNav extends Base {
     }
   }
 
-  protected disconnectedCallback() {
+  public disconnectedCallback() {
     super.disconnectedCallback();
 
     if (!((this as any as HTMLElement).parentNode instanceof SideNavItem)) {
